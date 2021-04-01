@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #474954;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  margin-top: 2rem;
+  width: 60%;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.droparea {
+  width: 100%;
+  padding: 1rem;
+  background: #f0f2f5;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.card {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  cursor: grab;
+}
+
+.card .info {
+  display: flex;
+  align-items: center;
+}
+
+.info .profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f0f2f5;
+  margin-right: 10px;
+}
+
+.info .name {
+  font-size: 1.2rem;
+}
+
+.info .role {
+  font-size: 0.9rem;
+  color: #bec5ce;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.skills {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.skills .skill {
+  color: #a4a9af;
+  font-weight: 600;
+  border: 1px solid #bec5ce;
+  border-radius: 22px;
+  padding: 2px 8px;
+  margin: 0 5px;
+}
+
+.status {
+  padding: 20px;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  height: 100%;
+  z-index: -1;
+}
+
+.new,
+.shortlisted,
+.interviewed {
+  width: 100%;
+}
+
+.new .status {
+  background: #d5dbf9;
+}
+
+.new .progress {
+  width: 30%;
+  background: #7487eb;
+}
+
+.new .completed {
+  color: #7487eb;
+}
+
+.shortlisted .status {
+  background: #ffd8bc;
+}
+
+.shortlisted .progress {
+  width: 50%;
+  background: #fe7e21;
+}
+
+.shortlisted .completed {
+  color: #fe7e21;
+}
+
+.interviewed .status {
+  background: #c8f1f1;
+}
+
+.interviewed .progress {
+  width: 70%;
+  background: #48d0d0;
+}
+
+.interviewed .completed {
+  color: #48d0d0;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title .completed {
+  font-weight: bold;
+}
+
+.dragging {
+  cursor: grabbing;
+}
+
+.previewDrop {
+  opacity: 0.3;
+}
+
+.over {
+  background: #b8c0cc;
+}
