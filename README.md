@@ -29,7 +29,7 @@
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="https://github.com/miguelsndc/Drag-and-Drop-API-JS/blob/main/LICENSE">License</a>
 </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ $ cd Moveit
 
 ## 📝 License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/miguelsndc/moveit/blob/main/LICENSE.md) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/miguelsndc/Drag-and-Drop-API-JS/blob/main/LICENSE) for more information.
 
 ---
 
